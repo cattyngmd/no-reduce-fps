@@ -1,0 +1,4 @@
+{
+  "nrfps.options.inactivityFpsLimit.never": "Никогда",
+  "nrfps.options.inactivityFpsLimit.never.tooltip": "Не ограничивает частоту кадров вовсе."
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "nrfps",
+  "version": "${version}",
+  "name": "NoReduceFPS",
+  "description": "Mod that adds SearchBar to the ResourcePack list.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/nrfps/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "dev.cattyn.nrfps.client.MainDataGenerator"
+    ],
+    "client": [
+      "dev.cattyn.nrfps.client.MainClient"
+    ],
+    "main": [
+      "dev.cattyn.nrfps.Main"
+    ]
+  },
+  "mixins": [
+    "nrfps.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}

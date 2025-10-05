@@ -10,15 +10,6 @@
   "icon": "assets/nrfps/icon.png",
   "environment": "client",
   "entrypoints": {
-    "fabric-datagen": [
-      "dev.cattyn.nrfps.client.MainDataGenerator"
-    ],
-    "client": [
-      "dev.cattyn.nrfps.client.MainClient"
-    ],
-    "main": [
-      "dev.cattyn.nrfps.Main"
-    ]
   },
   "mixins": [
     "nrfps.mixins.json"

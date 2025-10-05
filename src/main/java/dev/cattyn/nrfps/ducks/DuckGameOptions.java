@@ -1,4 +1,4 @@
-package dev.cattyn.nrfps.interfaces;
+package dev.cattyn.nrfps.ducks;
 
 import dev.cattyn.nrfps.InactivityFpsLimitModes;
 import net.minecraft.client.option.GameOptions;

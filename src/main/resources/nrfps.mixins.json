@@ -4,8 +4,12 @@
   "package": "dev.cattyn.nrfps.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "sodium.MixinSodiumGameOptionPages"
   ],
   "client": [
+    "MixinGameOptions",
+    "MixinInactivityFpsLimiter",
+    "MixinVideoOptionsScreen"
   ],
   "injectors": {
     "defaultRequire": 1

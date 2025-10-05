@@ -1,0 +1,4 @@
+{
+  "nrfps.options.inactivityFpsLimit.never": "Never",
+  "nrfps.options.inactivityFpsLimit.never.tooltip": "Does not limit the framerate at all."
+}
